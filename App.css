@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  
+}
+
+body
+{
+  background-color: #13d4cd;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+#users, #talks
+{
+ 
+  margin: 30px;
+  font-family: Roboto;
+  
+  
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+  width: 280px;
+  border: solid #0af0e8 1px;
+  
+}
+
+
+ul{
+  width: 280px;
+  
+}
+
+#logo{
+  margin: 15px;
+  border: solid #0af0e8 1px;
+  border-radius: 5%;
+  padding: 1px; 
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  color: grey;
+  -webkit-text-stroke: 1px grey;
+  text-shadow: 0 0 12px #fff;
+  text-decoration:none; 
+  font-style: oblique;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  height: 200px
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
